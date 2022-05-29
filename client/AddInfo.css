@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(back.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  font-family: sans-serif;
+  overflow: hidden;
+  padding-top: 7%;
+}
+
+.image1 {
+  padding-left: 14%;
+}
+
+.image2 {
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-right: 7%;
+}
+
+.image3 {
+  padding-left: 10%;
+}
+
+button {
+  position: relative;
+  margin: 5%;
+  text-align: center;
+  width: 95%;
+  height: 65px;
+  left: 160px;
+  border: 3px solid white;
+  background-color: rgb(52, 195, 0);
+  border-radius: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  margin: 2px black;
+}
+
+button {
+  transition: 0.9;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btnb {
+  margin: 0;
+  padding: 0;
+  width: 55%;
+  height: 80px;
+  left: 340px;
+  overflow: hidden;
+}
+.btnb.input {
+  display: hidden;
+}
+
+.btnc {
+  left: 370px;
+}

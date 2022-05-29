@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Details</title>
+    <link rel="stylesheet" type="text/css" href="StudentInfo.css" />
+  </head>
+  <body>
+    <div class="center">
+      <h1>Student Information</h1>
+    </div>
+    <form>
+      <table class="table">
+        <tbody>
+          <tr>
+            <div class="formInfo">
+              <td class="left">
+                <label for="myname"> Name </label>
+              </td>
+              <td class="right">
+                <input type="text" placeholder="Enter your name" id="myname" />
+              </td>
+            </div>
+          </tr>
+          <tr>
+            <div class="formInfo">
+              <td class="left">
+                <label for="myroll"> Roll No. </label>
+              </td>
+              <td class="right">
+                <input type="number" placeholder="Enter your roll number" id="myroll" />
+              </td>
+            </div>
+          </tr>
+          <tr>
+            <div class="formInfo">
+              <td class="left">
+                <label for="Email" class="formlabel">Email address</label>
+              </td>
+              <td class="right">
+                <input
+                  type="email"
+                  placeholder="Enter your email id"
+                  class="myform"
+                  id="Email"
+                />
+              </td>
+            </div>
+          </tr>
+          <tr>
+            <div class="formInfo">
+              <td class="left">
+                <label for="gender"> Gender</label>
+              </td>
+              <td class="right">
+                <span class="genders"><input
+                  type="radio"
+                  checked="checked"
+                  value="male"
+                  name="mygender"
+                  id="male"
+                />
+                <label for="male" class="radios">Male</label>
+               </span>
+               <span class="gender"></span> <input
+                  type="radio"
+                  value="female"
+                  name="mygender"
+                  id="female"
+                />
+                <label for="female"> Female</label>
+                </span>
+                <span class="gender"></span> <input type="radio" value="other" name="mygender" id="other" />
+                <label for="other" class="radios"> Other</label>
+              </span>
+              </td>
+            </div>
+          </tr>
+          <tr>
+            <div class="formInfo">
+              <td class="left">
+                <button type="submit" class="btn">
+                  Submit
+                </button>
+              </td>
+              <td class="right"></td>
+            </div>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+    <script src="StudentInfo.js"></script>
+  </body>
+</html>

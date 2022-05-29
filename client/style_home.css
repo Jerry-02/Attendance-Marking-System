@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(home.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.center {
+  margin: 10%;
+  border: 10%;
+  padding: 12% 5% 5% 5%;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  right: 15%;
+  width: 990px;
+  transform: translate(-20%, -20%);
+  background-color: rgb(224, 218, 218);
+  opacity: 0.8;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.center h1 {
+  font-size: 100px;
+  text-align: center;
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid black;
+}
+
+#content {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  font-size: x-large;
+  text-align: center;
+}
+
+.sub {
+  border: 2px solid #fff;
+  padding-bottom: 5%;
+  margin: 30px;
+  border-bottom: 1px solid black;
+}
+
+.sub button {
+  margin: 5%;
+  text-align: center;
+  width: 40%;
+  height: 85px;
+  margin-right: 10%;
+  border: 1px solid;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttons {
+  margin-right: 10%;
+}
+
+.btn-float {
+  float: center;
+}
+
+input {
+  margin: 5%;
+  text-align: center;
+  width: 40%;
+  height: 75px;
+  border: 1px solid;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  text-decoration: underline;
+}
+
+#about {
+  font-size: x-large;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 5%;
+}
+
+#about h3 {
+  font-size: 40px;
+  padding-right: 70%;
+  padding-top: 5%;
+  text-decoration: underline;
+}
+
+.contact {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  text-align: left;
+  font-size: x-large;
+}
+
+.contact h6 {
+  font-size: 25px;
+}
+
+.contact h3 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.contact a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.number:hover {
+  color: red;
+  text-decoration: underline;
+}

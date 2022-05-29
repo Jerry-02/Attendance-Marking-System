@@ -1,0 +1,85 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(markAttendance.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.center {
+  border: 30%;
+  position: absolute;
+  margin-top: 5%;
+  top: 3%;
+  left: 40%;
+  transform: translate(-30%, -30%);
+  width: 700px;
+  background-color: rgb(165, 165, 165);
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.center h1 {
+  font-size: 65px;
+  text-align: center;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid black;
+}
+
+table {
+  position: absolute;
+  top: 49%;
+  left: 40%;
+  padding-bottom: 2%;
+  transform: translate(-30%, -30%);
+  width: 700px;
+  background-color: rgb(165, 165, 165);
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+input {
+  font-family: sans-serif;
+  font-size: 19px;
+}
+
+.left {
+  font-size: 25px;
+  padding-top: 3%;
+}
+
+.right {
+  font-size: 20px;
+  padding-top: 3%;
+}
+
+input[type="radio"] {
+  height: 25px;
+  width: 25px;
+  accent-color: rgb(0, 26, 255);
+}
+
+input:hover {
+  color: rgb(0, 4, 255);
+}
+
+.btn {
+  width: 60%;
+  height: 35px;
+  border: 1px solid;
+  background: #000000;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 800;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  color: rgb(21, 0, 255);
+}
